@@ -2,7 +2,7 @@
 class Modelo {
     private $conexion;
     public function __construct() {
-        $this->conexion = new mysqli('localhost', 'root', '', 'examen_mvc');
+        $this->conexion = new mysqli('localhost', 'root', '', 'mvc2');
         if ($this->conexion->connect_error) {
             die('Error en la conexión: ' . $this->conexion->connect_error);
         }

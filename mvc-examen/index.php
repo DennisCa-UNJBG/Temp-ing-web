@@ -1,4 +1,5 @@
 <?php
 echo "Bienvenido al Examen de Laboratorio de MVC";
 ?>
-<!--<form action="vista/index.php" method="get"><button type="submit">Ir a la Vista</button></form>
+<br><br>
+<button type="button"><a href="./vista/">Ir a la vista</a></button>
